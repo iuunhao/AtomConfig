@@ -72,8 +72,6 @@
     :flexbox-snippets
     :css-specificity
     :tokamak-terminal
-    :tree-view-search-bar
-    :project-manager
     :minimap-codeglance
     :expose
     :minimap-git-diff
@@ -83,6 +81,12 @@
     :merge-conflicts
     :linter
     :project-viewer
+    :quick-highlight
+    :elastic-tabstops
+    :autocomplete-paths
+    :smalls
+    :local-history
+    :markdown-preview-enhanced
   ]
 
   ;; Packages that you want to disable.
@@ -101,7 +105,7 @@
   :configuration
   [
     ;; appearance
-    ["editor.fontFamily" "Inconsolata for Powerline"]
+    ["editor.fontFamily" "Inconsolata"]
 
     ;; the current default theme
     ["core.themes" ["nucleus-dark-ui" "atom-dark-fusion-syntax"]]
