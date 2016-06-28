@@ -58,22 +58,31 @@
   :additional-packages
   [
     :emmet
-    :pigments
     :filecolor
-    :glowing-cursor
-    :atom-html-preview
     :color-picker
     :atom-beautify
-    ;;:windows-context-menu
     :status-bar
     :open-in-browser
-    ;;:markdown-writer
-    ;;:atom-hexo
-    :file-header
-    :atom-ternjs
     :regex-railroad-diagram
-    :pretty-json
-    :atom-open-terminal-here
+    :atom-html-preview
+    :pigments
+    :javascript-snippets
+    :open-html-in-browser
+    :double-tag
+    :flexbox-snippets
+    :css-specificity
+    :tokamak-terminal
+    :tree-view-search-bar
+    :project-manager
+    :minimap-codeglance
+    :expose
+    :minimap-git-diff
+    :minimap-linter
+    :minimap-find-and-replace
+    :csslint
+    :merge-conflicts
+    :linter
+    :project-viewer
   ]
 
   ;; Packages that you want to disable.
@@ -92,7 +101,7 @@
   :configuration
   [
     ;; appearance
-    ["editor.fontFamily" "Inconsolata"]
+    ["editor.fontFamily" "Inconsolata for Powerline"]
 
     ;; the current default theme
     ["core.themes" ["nucleus-dark-ui" "atom-dark-fusion-syntax"]]
