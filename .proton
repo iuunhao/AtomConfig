@@ -70,7 +70,7 @@
     ;;:open-html-in-browser
     ;;:flexbox-snippets
     ;;:css-specificity
-    :tokamak-terminal
+    ;;:tokamak-terminal
     :expose
     ;;:merge-conflicts
     :project-viewer
@@ -81,11 +81,14 @@
     ;;:markdown-preview-enhanced
     :dracula-ui
     :dracula-theme
-    :nuclide
-    :atom-react-native-autocomplete
+    ;;:nuclide
+    ;:atom-react-native-autocomplete
     :filesize
     :trans-en-zh
-    :napalm
+    :tree-view-copy-relative-path
+    :open-in-browsers
+    ;;:js-hyperclick
+    :linter-htmlhint
   ]
 
   ;; Packages that you want to disable.
@@ -93,10 +96,11 @@
   ;; Bundled packages will be disabled instead.
   ;; Use this configuration instead of atom's `core.disabledPackages`
   :disabled-packages [
-    ;; :autoupdate-packages
-    ;; :about
-    ;; :welcome
+    :autoupdate-packages
+    :about
+    :welcome
     :activate-power-mode
+	:languages-javascript-jsx
   ]
   ;; Proton takes over your atom configuration. All settings that are not listed here will get wiped
   ;; Configurations are denoted as 2 element vector consisting of k/v
@@ -131,7 +135,7 @@
   :keymaps [{:selector ".tree-view" :keymap [["escape" "tree-view:toggle"]]}
             ;; Want to rebind ESC to something else? You can do that here.
             ;; If you are good with esc, just remove the following line.
-            {:selector "atom-text-editor.vim-mode-plus:not(.normal-mode)" :keymap [["f d" "vim-mode-plus:activate-normal-mode"]]}
-            ;; {:selector "atom-text-editor.vim-mode:not(.normal-mode)" :keymap [["f d" "vim-mode:activate-normal-mode"]]}
+            ;;{:selector "atom-text-editor.vim-mode-plus:not(.normal-mode)" :keymap [["f d" "vim-mode-plus:activate-normal-mode"]]}
+            {:selector "atom-text-editor.vim-mode:not(.normal-mode)" :keymap [["f d" "vim-mode:activate-normal-mode"]]}
   ]
 }
