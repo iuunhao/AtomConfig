@@ -35,7 +35,7 @@
     ;; :lang/julia
     ;; :lang/latex
     ;; :lang/elixir
-    ;; :lang/markdown
+    :lang/markdown
     ;; :lang/rust
     :lang/javascript
 
@@ -62,30 +62,23 @@
     ;;:css-snippets
     ;;:autocomplete-html-entities
     :tag
+    ;;:block-cursor
     :autocomplete-modules
-    ;;:jshint
-    ;;:jsonlint
-    ;;:csslint
     ;;:htmlhint
-    ;;:pigments
+    :pigments
     ;;:foldername-tabs
-    ;;:Highlight-column
     ;;:highlight-selected
     ;;:fold-comments
     ;;:language-vue
-    ;;:react
     :atom-beautify
     :open-in-browser
     :tree-view-copy-relative-path
     ;;:copy-filename
     ;;:tree-view-git-status
-    ;;:terminal-plus
-    ;;:regex-railroad-diagram
+    :terminal-plus
+    :regex-railroad-diagram
     ;; :simplified-chinese-menu
     ;;:linter-js-standard
-    :pristine-ui
-    :duotone-dark-space-syntax
-    ;;:autoprefixer
     ;;:local-history
     ;;:vue-autocompile
     :emmet
@@ -95,9 +88,21 @@
     ;;:atom-bracket-highlight
     ;;:atom-html-preview
     :auto-id-class
-    :glowing-cursor
+    ;;:glowing-cursor
     ;;:tree-view-tautoresize
     :jumpy
+    :stylus
+    :atom-pug
+    :seti-ui
+    :ramda-syntax
+    :vue-format
+    :language-vue
+
+
+    ;;:linter
+    ;;:linter-eslint
+    ;;:editorconfig
+    ;;:linter-ui-default
   ]
 
   ;; Packages that you want ato disable.
@@ -108,13 +113,13 @@
     :autoupdate-packages
     :about
     :welcome
-    :status-bar
+    ;;:status-bar
     :zentabs
     :file-icons
     :easy-motion-redux
     :relative-numbers
     :encoding-selector
-    :tree-view
+    :react
   ]
   ;; Proton takes over your atom configuration. All settings that are not listed here will get wiped
   ;; Configurations are denoted as 2 element vector consisting of k/v
@@ -128,8 +133,8 @@
     ["editor.tabType" "auto"]
     ["editor.atomicSoftTabs" false]
     ["editor.nonWordCharacters" "./\\()\"':,.;<>~!@#$%^&*|+=[]{}`~?"]
-    ["core.titleBar" "custom"]
-    ["core.themes" ["pristine-ui" "duotone-dark-space-syntax"]]
+    ;;["core.titleBar" "custom"]
+    ["core.themes" ["one-dark-ui" "one-dark-syntax"]]
 
     ;; proton configuration
     ["proton.core.showTabBar" true]
